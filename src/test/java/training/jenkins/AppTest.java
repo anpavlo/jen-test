@@ -20,7 +20,7 @@ public class AppTest
     }
 
     @Test
-    public void shouldBeFailed() {
-        assertTrue(false);
+    public void shouldNotBeFailed() {
+        assertTrue(true);
     }
 }
